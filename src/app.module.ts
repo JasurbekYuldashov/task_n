@@ -13,7 +13,7 @@ import { CustomerModule } from "./customer/customer.module";
       port: 5432,
       username: "postgres",
       password: "cuba",
-      database: "delivery1",
+      database: "task_n",
       entities: [ShopSchema, CustomerSchema],
       synchronize: true
     }),
